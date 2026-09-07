@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "HBHealthcare_msft_generic_dtt_transformation"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "51fdac45-5f87-8cf3-4b92-35024d6e36ec"
+  }
+}
