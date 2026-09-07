@@ -1,4 +1,4 @@
-# Health-Data-Integration-Platform
+# # HBHealthcare – Health Data Integration Platform
 
 # Fabric Healthcare Foundations – Synthetic Clinical, SDOH, and Imaging Platform
 
