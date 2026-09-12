@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_raw_process_movement"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "36193585-b369-b185-4e89-f99864b05097"
+  }
+}

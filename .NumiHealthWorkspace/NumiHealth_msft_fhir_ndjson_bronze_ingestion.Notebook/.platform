@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_fhir_ndjson_bronze_ingestion"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6a62e608-737f-9111-4eb7-ffb646aa5b2e"
+  }
+}

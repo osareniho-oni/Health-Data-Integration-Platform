@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "NumiHealth__SampleData_IngestionPipeline"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ed4d94d0-931b-8ed6-41ee-9a73b6372561"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Healthcaredatasolution",
+    "displayName": "NumiHealth",
+    "description": "Healthcare data solutions"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bf691be8-9e0a-af45-45f3-9e4b42ca7410"
+  }
+}

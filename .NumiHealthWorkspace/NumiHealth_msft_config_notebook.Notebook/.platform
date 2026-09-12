@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_config_notebook"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c40342ff-21b2-bfe4-496f-6afaabe054a5"
+  }
+}
