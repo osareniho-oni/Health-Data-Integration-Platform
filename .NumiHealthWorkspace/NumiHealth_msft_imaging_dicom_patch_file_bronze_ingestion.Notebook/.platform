@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_imaging_dicom_patch_file_bronze_ingestion"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c5b1d0ed-0be2-961f-4e3e-01e7587b9717"
+  }
+}

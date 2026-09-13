@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_omop_drug_exposure_insights_sample"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ee33744c-d297-acc4-4486-0f69284daefc"
+  }
+}

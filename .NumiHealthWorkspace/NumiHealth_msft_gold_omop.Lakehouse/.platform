@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "NumiHealth_msft_gold_omop"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e515f709-c8a0-8de4-4f50-adf50232a774"
+  }
+}

@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "name": "fhirdataingest",
+    "path": "/Files/External/Clinical/FHIR-NDJSON/FHIR-NDS",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "f019facb-b5e1-4132-9de6-608fe23b4a9e",
+        "location": "https://numihc3ingeststaging.dfs.core.windows.net",
+        "subpath": "/fhirdataingest"
+      }
+    }
+  }
+]

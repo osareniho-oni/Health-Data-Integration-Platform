@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_imaging_dicom_silver_metastore_transformation"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "545b8ff1-4fa2-95ca-4cec-b67a299e79ec"
+  }
+}

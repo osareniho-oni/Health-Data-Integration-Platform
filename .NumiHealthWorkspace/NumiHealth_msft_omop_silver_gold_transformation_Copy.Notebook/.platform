@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NumiHealth_msft_omop_silver_gold_transformation_Copy"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4fd3b432-e6d2-917d-4338-f05e4e03644d"
+  }
+}

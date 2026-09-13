@@ -8,8 +8,8 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "7864078c-7c67-4e33-ab08-7a92ea1ad166",
-# META       "default_lakehouse_name": "NumiHealth_msft_bronze",
+# META       "default_lakehouse": "f4dfa09a-6b83-4863-b051-4a257543a5f9",
+# META       "default_lakehouse_name": "NumiHealth_msft_silver",
 # META       "default_lakehouse_workspace_id": "bbae1573-fb7c-412a-9619-e1fa6a4e548e"
 # META     },
 # META     "environment": {
@@ -32,8 +32,6 @@
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }
@@ -45,8 +43,6 @@
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }
@@ -66,26 +62,25 @@ inline_params = "{}"
 
 # CELL ********************
 
-from microsoft.fabric.hls.hds.services.file_orchestration_service import FileOrchestrationService
+from microsoft.fabric.hls.hds.medical_imaging.dicom.core.silver_metastore_processor import MetastoreProcessor
 import json
 
 # convert inline params into dictionary
 inline_params_dict = json.loads(inline_params)
 
-service = FileOrchestrationService(spark, 
-                workspace_name=workspace_name,
-                solution_name=solution_name,
-                admin_lakehouse_name=administration_database_name,
-                inline_params=inline_params_dict,
-                one_lake_endpoint=one_lake_endpoint)
+service = MetastoreProcessor(
+        spark=spark, 
+        workspace_name=workspace_name, 
+        solution_name=solution_name,
+        admin_lakehouse_name=administration_database_name,
+        inline_params=inline_params_dict,
+        one_lake_endpoint=one_lake_endpoint)
 
 service.run()
 
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }
@@ -97,8 +92,6 @@ mssparkutils.fs.unmount(packages_mount_name)
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }

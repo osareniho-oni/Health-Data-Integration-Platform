@@ -32,8 +32,6 @@
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }
@@ -45,8 +43,6 @@
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }
@@ -66,26 +62,24 @@ inline_params = "{}"
 
 # CELL ********************
 
-from microsoft.fabric.hls.hds.services.file_orchestration_service import FileOrchestrationService
+from microsoft.fabric.hls.hds.medical_imaging.dicom.core.metadata_extraction_orchestrator import MetadataExtractionOrchestrator
 import json
 
 # convert inline params into dictionary
 inline_params_dict = json.loads(inline_params)
 
-service = FileOrchestrationService(spark, 
-                workspace_name=workspace_name,
-                solution_name=solution_name,
-                admin_lakehouse_name=administration_database_name,
-                inline_params=inline_params_dict,
-                one_lake_endpoint=one_lake_endpoint)
+service = MetadataExtractionOrchestrator(spark, 
+    workspace_name=workspace_name, 
+    solution_name=solution_name,
+    admin_lakehouse_name=administration_database_name,
+    inline_params=inline_params_dict,
+    one_lake_endpoint=one_lake_endpoint,)
 
 service.run()
 
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }
@@ -97,8 +91,6 @@ mssparkutils.fs.unmount(packages_mount_name)
 # METADATA ********************
 
 # META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark",
 # META   "frozen": false,
 # META   "editable": false
 # META }

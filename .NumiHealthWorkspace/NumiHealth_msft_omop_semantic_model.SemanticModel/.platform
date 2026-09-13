@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "NumiHealth_msft_omop_semantic_model"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e48cc564-68bd-8fd1-4407-354c0511ba3b"
+  }
+}

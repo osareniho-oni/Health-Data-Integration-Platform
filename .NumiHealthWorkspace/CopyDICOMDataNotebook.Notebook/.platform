@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "CopyDICOMDataNotebook"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9d49f175-58dc-b968-4a94-38348b556959"
+  }
+}

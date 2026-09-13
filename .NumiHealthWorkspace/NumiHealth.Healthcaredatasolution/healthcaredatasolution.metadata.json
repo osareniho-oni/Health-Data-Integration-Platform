@@ -17,12 +17,42 @@
     },
     {
       "itemType": "Lakehouse",
+      "itemObjectId": "e515f709-c8a0-8de4-4f50-adf50232a774",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "Lakehouse",
       "itemObjectId": "ea1ad166-7a92-ab08-4e33-7c677864078c",
       "folderObjectId": "00000000-0000-0000-0000-000000000000"
     },
     {
       "itemType": "Pipeline",
+      "itemObjectId": "33e2cae1-9493-8f1d-4723-050f5bcd6712",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "Pipeline",
+      "itemObjectId": "79f68700-3e5a-ae44-489c-a5192165bf09",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "Pipeline",
+      "itemObjectId": "d8fefe55-00c0-9cce-49d0-1c99a693dbeb",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "Pipeline",
       "itemObjectId": "fa28488e-0f7f-90fa-4080-4e4ce853e1e7",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
+      "itemObjectId": "032a4ffb-513e-939b-4926-59a4e3f84a15",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
+      "itemObjectId": "15e44254-641c-969e-4160-9582f445900e",
       "folderObjectId": "00000000-0000-0000-0000-000000000000"
     },
     {
@@ -42,7 +72,17 @@
     },
     {
       "itemType": "SynapseNotebook",
+      "itemObjectId": "545b8ff1-4fa2-95ca-4cec-b67a299e79ec",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
       "itemObjectId": "6a62e608-737f-9111-4eb7-ffb646aa5b2e",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
+      "itemObjectId": "7664af85-5c73-bc27-47d4-e323cab600f8",
       "folderObjectId": "00000000-0000-0000-0000-000000000000"
     },
     {
@@ -52,7 +92,22 @@
     },
     {
       "itemType": "SynapseNotebook",
+      "itemObjectId": "c5b1d0ed-0be2-961f-4e3e-01e7587b9717",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
       "itemObjectId": "ce7cca0e-316b-8eec-484c-f52ac9cb0d1a",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
+      "itemObjectId": "ee33744c-d297-acc4-4486-0f69284daefc",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "SynapseNotebook",
+      "itemObjectId": "f24c8e23-8bab-b340-469d-e17ade804437",
       "folderObjectId": "00000000-0000-0000-0000-000000000000"
     }
   ],
@@ -195,6 +250,124 @@
           "itemKey": "dmh4h-sampledata",
           "provisionState": "Active",
           "displayName": "51KSyntheticPatients",
+          "version": "1.0.0",
+          "itemType": "SampleData"
+        }
+      }
+    },
+    {
+      "name": "dicom-data-ingestion",
+      "version": "1.3.0",
+      "provisionState": "Active",
+      "deployedItems": {
+        "dicom-extract-bronze-ingestion-notebook": {
+          "objectId": "f24c8e23-8bab-b340-469d-e17ade804437",
+          "itemKey": "dicom-extract-bronze-ingestion-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_imaging_dicom_extract_bronze_ingestion",
+          "version": "1.2.0",
+          "itemType": "Notebook"
+        },
+        "dicom-fhir-conversion-notebook": {
+          "objectId": "7664af85-5c73-bc27-47d4-e323cab600f8",
+          "itemKey": "dicom-fhir-conversion-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_imaging_dicom_fhir_conversion",
+          "version": "1.3.0",
+          "itemType": "Notebook"
+        },
+        "imaging-dicom-patch-file-bronze-ingestion-notebook": {
+          "objectId": "c5b1d0ed-0be2-961f-4e3e-01e7587b9717",
+          "itemKey": "imaging-dicom-patch-file-bronze-ingestion-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_imaging_dicom_patch_file_bronze_ingestion",
+          "version": "1.3.0",
+          "itemType": "Notebook"
+        },
+        "imaging-dicom-silver-metastore-transformation-notebook": {
+          "objectId": "545b8ff1-4fa2-95ca-4cec-b67a299e79ec",
+          "itemKey": "imaging-dicom-silver-metastore-transformation-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_imaging_dicom_silver_metastore_transformation",
+          "version": "1.3.0",
+          "itemType": "Notebook"
+        },
+        "imaging-with-clinical-foundation-ingestion-pipeline": {
+          "objectId": "33e2cae1-9493-8f1d-4723-050f5bcd6712",
+          "itemKey": "imaging-with-clinical-foundation-ingestion-pipeline",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_imaging_with_clinical_foundation_ingestion",
+          "version": "1.3.0",
+          "itemType": "DataPipeline"
+        },
+        "imaging-patch-with-clinical-foundation-ingestion-pipeline": {
+          "objectId": "d8fefe55-00c0-9cce-49d0-1c99a693dbeb",
+          "itemKey": "imaging-patch-with-clinical-foundation-ingestion-pipeline",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_imaging_patch_with_clinical_foundation_ingestion",
+          "version": "1.3.0",
+          "itemType": "DataPipeline"
+        }
+      }
+    },
+    {
+      "name": "omop-analytics",
+      "version": "1.2.0",
+      "provisionState": "Active",
+      "deployedItems": {
+        "omop-lakehouse": {
+          "objectId": "e515f709-c8a0-8de4-4f50-adf50232a774",
+          "itemKey": "omop-lakehouse",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_gold_omop",
+          "version": "1.0.0",
+          "itemType": "Lakehouse"
+        },
+        "omop-semantic-model": {
+          "objectId": "0511ba3b-354c-4407-8fd1-68bde48cc564",
+          "itemKey": "omop-semantic-model",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_omop_semantic_model",
+          "version": "1.0.0",
+          "itemType": "SemanticModel"
+        },
+        "drug-exposure-era-notebook": {
+          "objectId": "15e44254-641c-969e-4160-9582f445900e",
+          "itemKey": "drug-exposure-era-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_omop_drug_exposure_era_sample",
+          "version": "1.0.0",
+          "itemType": "Notebook"
+        },
+        "silver-omop-notebook": {
+          "objectId": "032a4ffb-513e-939b-4926-59a4e3f84a15",
+          "itemKey": "silver-omop-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_omop_silver_gold_transformation",
+          "version": "1.2.0",
+          "itemType": "Notebook"
+        },
+        "drug-exposure-insights-notebook": {
+          "objectId": "ee33744c-d297-acc4-4486-0f69284daefc",
+          "itemKey": "drug-exposure-insights-notebook",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_omop_drug_exposure_insights_sample",
+          "version": "1.0.0",
+          "itemType": "Notebook"
+        },
+        "omop-analytics-pipeline": {
+          "objectId": "79f68700-3e5a-ae44-489c-a5192165bf09",
+          "itemKey": "omop-analytics-pipeline",
+          "provisionState": "Active",
+          "displayName": "NumiHealth_msft_omop_analytics",
+          "version": "1.2.0",
+          "itemType": "DataPipeline"
+        },
+        "dm4h-omop-vocab-data": {
+          "objectId": "00000000-0000-0000-0000-000000000000",
+          "itemKey": "dm4h-omop-vocab-data",
+          "provisionState": "Active",
+          "displayName": "Vocab-HDS",
           "version": "1.0.0",
           "itemType": "SampleData"
         }

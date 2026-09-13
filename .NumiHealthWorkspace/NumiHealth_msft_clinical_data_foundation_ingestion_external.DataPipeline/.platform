@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "NumiHealth_msft_clinical_data_foundation_ingestion_external"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a187b402-440d-b71b-4f5f-a89beea56a72"
+  }
+}

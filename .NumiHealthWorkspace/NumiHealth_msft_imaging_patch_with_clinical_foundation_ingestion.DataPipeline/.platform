@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "NumiHealth_msft_imaging_patch_with_clinical_foundation_ingestion",
+    "description": "This pipeline ingests the Imaging PATCH ndjson data and the imaging DICOM data into Delta tables in the bronze lakehouse, flattens the data into the silver lakehouse."
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d8fefe55-00c0-9cce-49d0-1c99a693dbeb"
+  }
+}
